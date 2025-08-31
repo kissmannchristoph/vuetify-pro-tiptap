@@ -11,6 +11,13 @@ export const CodeBlock = /* @__PURE__*/ TiptapCodeBlock.extend<CodeBlockOptions>
   addOptions() {
     return {
       ...this.parent?.(),
+      languageClassPrefix: 'language-',
+      exitOnTripleEnter: true,
+      defaultLanguage: null,
+      exitOnArrowDown: true,
+      HTMLAttributes: {},
+      spacer: false,
+      divider: false,
       button: ({ editor, t }) => ({
         component: CodeBlockActionButton,
         componentProps: {

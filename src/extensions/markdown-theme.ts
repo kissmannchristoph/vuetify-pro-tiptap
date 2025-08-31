@@ -25,6 +25,8 @@ export const MarkdownTheme = /* @__PURE__*/ Extension.create<MarkdownThemeOption
     return {
       ...this.parent?.(),
       markdownThemes: DEFAULT_MARKDOWN_THEME_LIST,
+      divider: false,
+      spacer: false,
       button: ({ editor, extension, t }) => {
         return {
           component: MarkdownThemeActionMenuButton,

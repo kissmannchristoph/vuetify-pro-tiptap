@@ -11,6 +11,12 @@ export const OrderedList = /* @__PURE__*/ TiptapOrderedList.extend<OrderedListOp
   addOptions() {
     return {
       ...this.parent?.(),
+      itemTypeName: 'listItem',
+      HTMLAttributes: {},
+      keepMarks: false,
+      keepAttributes: false,
+      divider: false,
+      spacer: false,
       button: ({ editor, t }) => ({
         component: OrderedListActionButton,
         componentProps: {

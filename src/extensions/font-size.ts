@@ -42,6 +42,8 @@ export const FontSize = /* @__PURE__*/ Extension.create<FontSizeOptions>({
       ...this.parent?.(),
       types: ['textStyle'],
       fontSizes: [...DEFAULT_FONT_SIZE_LIST],
+      divider: false,
+      spacer: false,
       button: ({ editor, extension, t }) => {
         return {
           component: FontSizeActionMenuButton,

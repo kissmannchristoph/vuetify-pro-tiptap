@@ -7,7 +7,7 @@ import type { Editor, Extension } from '@tiptap/vue-3'
 import { useLocale } from '@/locales'
 import { isExtEnableAndActive } from '@/utils/utils'
 import { TextSelection } from '@tiptap/pm/state'
-import { BubbleMenu } from '@tiptap/vue-3'
+import BubbleMenu from '@tiptap/extension-bubble-menu'
 import { computed, reactive, ref, unref } from 'vue'
 
 interface Props {

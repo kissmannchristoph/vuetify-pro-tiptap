@@ -12,6 +12,9 @@ export const Highlight = /* @__PURE__*/ TiptapHighlight.extend<HighlightOptions>
     return {
       ...this.parent?.(),
       multicolor: true,
+      HTMLAttributes: {},
+      divider: false,
+      spacer: false,
       button: ({ editor, t }) => ({
         component: HighlightActionButton,
         componentProps: {

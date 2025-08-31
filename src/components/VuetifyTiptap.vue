@@ -183,7 +183,7 @@ const onValueChange = throttle((val: NonNullable<Props['modelValue']>) => {
   if (isEqual(output, val)) return
 
   const { from, to } = editor.state.selection
-  editor.commands.setContent(val, false)
+  editor.commands.setContent(val, undefined)
   editor.commands.setTextSelection({ from, to })
 }, EDITOR_UPDATE_WATCH_THROTTLE_WAIT_TIME)
 
