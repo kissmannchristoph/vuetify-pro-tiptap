@@ -19,11 +19,10 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Build Lib
         run: pnpm build:lib
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          registry-url: 'https://npm.pkg.github.com/'
-          scope: '@kissmannchristoph/vuetify-pro-tiptap'
-      - run: pnpm publish
+      - name: Release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/
+          NPM_CONFIG_PROVENANCE: true
+        run: pnpm semantic-release
