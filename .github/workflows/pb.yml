@@ -32,6 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/
+          NPM_USERNAME: kissmannchristoph
           NPM_CONFIG_PROVENANCE: true
           NPM_CONFIG_ACCESS: public
         run: pnpm semantic-release
