@@ -22,8 +22,6 @@ export const Fullscreen = /* @__PURE__*/ Extension.create<FullscreenOptions>({
     return {
       ...this.parent?.(),
       useWindow: false,
-      divider: false,
-      spacer: false,
       button: ({ editor, extension, t }) => ({
         component: FullscreenActionButton,
         componentProps: {

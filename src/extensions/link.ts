@@ -31,8 +31,6 @@ export const Link = /* @__PURE__*/ TiptapLink.extend<LinkOptions>({
       validate: (url: string) => true,
       isAllowedUri: (url, ctx) => ctx.defaultValidate(url) && !url.startsWith('./'),
       shouldAutoLink: (url) => url.startsWith('https://'),
-      divider: false,
-      spacer: false,
       dialogComponent: () => LinkDialog,
       button: ({ editor, extension, t }) => {
         const { dialogComponent } = extension.options

@@ -117,8 +117,6 @@ export const Image = /* @__PURE__*/ TiptapImage.extend<ImageOptions>({
       inline: true,
       allowBase64: true,
       HTMLAttributes: {},
-      divider: false,
-      spacer: false,
       dialogComponent: () => ImageDialog,
       button: ({ editor, extension, t }) => {
         const { upload, imageTabs, hiddenTabs, dialogComponent } = extension.options
