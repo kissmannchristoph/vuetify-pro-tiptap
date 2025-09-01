@@ -33,7 +33,7 @@ import {
   Video,
   VuetifyTiptap,
   VuetifyViewer
-} from 'vuetify-pro-tiptap'
+} from '@kissmannchristoph/vuetify-pro-tiptap'
 import LinkDialog from './components/LinkDialog.vue'
 
 import SelectImage from './components/SelectImage.vue'
@@ -43,9 +43,9 @@ import SelectImage from './components/SelectImage.vue'
  * @LastEditTime: 2023-06-13 20:39:47
  * @FilePath: \vuetify-pro-tiptap\examples\tiptap.ts
  */
-import 'vuetify-pro-tiptap/styles/editor.css'
+import '@kissmannchristoph/vuetify-pro-tiptap/styles/editor.css'
 
-import 'vuetify-pro-tiptap/styles/markdown.css'
+import '@kissmannchristoph/vuetify-pro-tiptap/styles/markdown.css'
 import './styles/markdown/github.scss'
 
 import './styles/markdown/maidragon.scss'

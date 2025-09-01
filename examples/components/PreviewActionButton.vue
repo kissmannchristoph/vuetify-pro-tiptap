@@ -10,7 +10,7 @@ import { mdiClose, mdiFileCodeOutline } from '@mdi/js'
 import { ref } from 'vue'
 import { useTheme } from 'vuetify'
 
-import { ActionButton } from 'vuetify-pro-tiptap'
+import { ActionButton } from '@kissmannchristoph/vuetify-pro-tiptap'
 
 const props = withDefaults(defineProps<Props>(), {
   tooltip: undefined,
