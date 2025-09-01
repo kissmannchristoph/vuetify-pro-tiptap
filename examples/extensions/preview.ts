@@ -1,4 +1,4 @@
-import type { GeneralOptions } from 'vuetify-pro-tiptap'
+import type { GeneralOptions } from '@kissmannchristoph/vuetify-pro-tiptap'
 import { Extension } from '@tiptap/core'
 
 import PreviewActionButton from '../components/PreviewActionButton.vue'
