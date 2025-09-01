@@ -2,18 +2,20 @@ name: Publish Package
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Build Lib
+        run: pnpm build:lib
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           registry-url: 'https://npm.pkg.github.com/'
-          scope: '@kissmannchristoph'
+          scope: '@kissmannchristoph/vuetify-pro-tiptap'
       - run: npm ci
       - run: npm publish
         env:
