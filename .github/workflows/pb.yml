@@ -24,7 +24,6 @@ jobs:
         with:
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@kissmannchristoph/vuetify-pro-tiptap'
-      - run: npm ci
-      - run: npm publish
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
