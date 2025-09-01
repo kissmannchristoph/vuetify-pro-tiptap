@@ -1,5 +1,5 @@
 {
-  "name": "vuetify-pro-tiptap",
+  "name": "@kissmannchristoph/vuetify-pro-tiptap",
   "type": "module",
   "version": "1.0.3",
   "private": false,
@@ -150,5 +150,8 @@
     "overrides": {
       "prosemirror-view": "1.37.0"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
