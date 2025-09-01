@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.3...v1.0.4) (2025-09-01)
+
+### Bug Fixes
+
+* **config:** tmp package ([da86386](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/da8638659d39090a71cfa38ddda9f6ccc6cc1cf7))
+
 ## [1.0.3](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.2...v1.0.3) (2025-09-01)
 
 ### Bug Fixes
