@@ -20,8 +20,10 @@ jobs:
         node: [20]
         # pnpm: [8]
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - uses: ./.github/actions/build-setup
         with:
           node-version: ${{ matrix.node }}
