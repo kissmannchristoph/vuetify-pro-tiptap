@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.8...v1.0.9) (2025-09-01)
+
+### Bug Fixes
+
+* **lib:** refix ([2a28bba](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/2a28bba0dd9dfaabf884ec8fd7588b5b607fca7d))
+* **lib:** test to remove pnpm in package.json ([80425ee](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/80425eef647948bee23d5b985f8d417d332b2ff5))
+
 ## [1.0.8](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.7...v1.0.8) (2025-09-01)
 
 ### Bug Fixes
