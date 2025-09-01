@@ -6,9 +6,17 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [20]
+        # pnpm: [8]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - uses: ./.github/actions/build-setup
+        with:
+          node-version: ${{ matrix.node }}
       - name: Build Lib
         run: pnpm build:lib
       - name: Setup Node
