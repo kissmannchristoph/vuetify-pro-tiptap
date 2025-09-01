@@ -149,8 +149,5 @@
     "overrides": {
       "prosemirror-view": "1.37.0"
     }
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
