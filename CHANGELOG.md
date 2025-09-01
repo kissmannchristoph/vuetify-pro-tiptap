@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.0...v1.0.1) (2025-09-01)
+
+### Bug Fixes
+
+* **config:** husky ([2bcb775](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/2bcb775025f96b3c95b33c88298ae766e2fc2ce7))
+
 ## 1.0.0 (2025-09-01)
 
 ### ⚠ BREAKING CHANGES
