@@ -1,3 +1,13 @@
+## [1.0.5](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.4...v1.0.5) (2025-09-01)
+
+### Bug Fixes
+
+* **config:** tmp disable configf ([78b9111](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/78b91115ee33f38f7848f2d8703f97d38cf71614))
+* **config:** tmp disable configf ([53ba314](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/53ba314c115ac0e21557f44cfe1b7f5e7ef3b903))
+* **config:** tmp disable configf ([a0378b6](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/a0378b6d9196b1373ed053e601c25ac91b250f0e))
+* **config:** tmp disable configf ([179f9a5](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/179f9a5249af76055f6c798f3496ec06f8433c2d))
+* **config:** tmp disable configf ([780c853](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/780c85369ee98aca37bece4b0a6182d3182904e5))
+
 ## [1.0.4](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.3...v1.0.4) (2025-09-01)
 
 ### Bug Fixes
