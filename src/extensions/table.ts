@@ -39,8 +39,6 @@ export const Table = /* @__PURE__*/ TiptapTable.extend<TableOptions>({
       View: TableView,
       lastColumnResizable: true,
       allowTableNodeSelection: false,
-      divider: false,
-      spacer: false,
       button: ({ editor, t }) => ({
         component: TableActionButton,
         componentProps: {

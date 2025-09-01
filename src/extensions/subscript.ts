@@ -33,10 +33,12 @@ export const SubAndSuperScript = /* @__PURE__*/ Extension.create<SubAndSuperScri
   addOptions() {
     return {
       ...this.parent?.(),
-      subscript: false,
-      superscript: false,
-      divider: false,
-      spacer: false,
+      subscript: {
+        HTMLAttributes: {}
+      },
+      superscript: {
+        HTMLAttributes: {}
+      },
       button: ({ editor, extension, t }) => ({
         component: SubscriptActionButton,
         componentProps: {

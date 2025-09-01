@@ -11,8 +11,6 @@ export const Blockquote = /* @__PURE__*/ TiptapBlockquote.extend<BlockquoteOptio
   addOptions() {
     return {
       ...this.parent?.(),
-      divider: false,
-      spacer: true,
       HTMLAttributes: {
         class: 'blockquote'
       },

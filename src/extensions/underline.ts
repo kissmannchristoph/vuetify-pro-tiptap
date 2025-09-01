@@ -12,8 +12,6 @@ export const Underline = /* @__PURE__*/ TiptapUnderline.extend<UnderlineOptions>
     return {
       ...this.parent?.(),
       HTMLAttributes: {},
-      divider: false,
-      spacer: false,
       button: ({ editor, t }) => ({
         component: UnderlineActionButton,
         componentProps: {

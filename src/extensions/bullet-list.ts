@@ -15,8 +15,6 @@ export const BulletList = /* @__PURE__*/ TiptapBulletList.extend<BulletListOptio
       keepMarks: false,
       HTMLAttributes: {},
       keepAttributes: false,
-      divider: false,
-      spacer: false,
       button: ({ editor, t }) => ({
         component: BulletListActionButton,
         componentProps: {

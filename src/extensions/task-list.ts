@@ -28,8 +28,6 @@ export const TaskList = /* @__PURE__*/ TiptapTaskList.extend<TaskListOptions>({
         }
       },
       itemTypeName: 'taskItem',
-      divider: false,
-      spacer: false,
       button: ({ editor, t }) => ({
         component: TaskListActionButton,
         componentProps: {
