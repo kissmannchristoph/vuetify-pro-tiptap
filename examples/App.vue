@@ -84,6 +84,7 @@ function getText() {
       <VAlert class="mb-4" type="info" title="Support repository" variant="tonal">
         <template #text>
           <div class="d-flex align-center">
+            Test
             If you like the repository, you can give us
             <iframe
               class="ms-2"
