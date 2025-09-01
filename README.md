@@ -1,6 +1,7 @@
 # Vuetify Pro Tiptap
 
-  The npm package is only for testing, please only use the original one for production
+  The npm package is only for testing, please only use the original one for production.
+  
   Big thanks to the original creator of vuetify-pro-tiptap
   
   ## Updates
