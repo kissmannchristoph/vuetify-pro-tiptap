@@ -1,6 +1,17 @@
 # Vuetify Pro Tiptap
 
-A WYSIWYG rich-text editor using [tiptap](https://github.com/scrumpy/tiptap) and [vuetify](https://github.com/vuetifyjs/vuetify) for Vue.js
+  The npm package is only for testing, please only use the original one for production
+  Big thanks to the original creator of vuetify-pro-tiptap
+  
+  ## Updates
+  Upgrade all tiptap packages to 3.3.0
+
+  ## Demo
+  👉[https://kissmannchristoph.github.io/vuetify-pro-tiptap/master/](https://kissmannchristoph.github.io/vuetify-pro-tiptap/master/)
+
+# Vuetify Pro Tiptap (Orignial)
+
+ A WYSIWYG rich-text editor using [tiptap](https://github.com/scrumpy/tiptap) and [vuetify](https://github.com/vuetifyjs/vuetify) for Vue.js
 
 [![download](https://img.shields.io/npm/dm/vuetify-pro-tiptap.svg)](https://npmcharts.com/compare/vuetify-pro-tiptap?minimal=true)
 [![version](https://img.shields.io/npm/v/vuetify-pro-tiptap.svg)](https://www.npmjs.org/package/vuetify-pro-tiptap)
