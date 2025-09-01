@@ -3,7 +3,7 @@ import type { TableOptions as TiptapTableOptions } from '@tiptap/extension-table
 import type { TableCellOptions } from '@tiptap/extension-table-cell'
 import type { TableHeaderOptions } from '@tiptap/extension-table-header'
 import type { TableRowOptions } from '@tiptap/extension-table-row'
-import { Table as TiptapTable } from '@tiptap/extension-table'
+import { TableView, Table as TiptapTable } from '@tiptap/extension-table'
 import { TableCell } from '@tiptap/extension-table-cell'
 import { TableHeader } from '@tiptap/extension-table-header'
 
@@ -31,6 +31,16 @@ export const Table = /* @__PURE__*/ TiptapTable.extend<TableOptions>({
       HTMLAttributes: {
         class: 'table-wrapper'
       },
+      tableRow: {},
+      tableHeader: {},
+      tableCell: {},
+      handleWidth: 5,
+      cellMinWidth: 25,
+      View: TableView,
+      lastColumnResizable: true,
+      allowTableNodeSelection: false,
+      divider: false,
+      spacer: false,
       button: ({ editor, t }) => ({
         component: TableActionButton,
         componentProps: {
