@@ -1,5 +1,5 @@
 {
-  "name": "@kissmannchristoph/vuetify-pro-tiptap",
+  "name": "vuetify-pro-tiptap",
   "type": "module",
   "version": "1.0.12",
   "packageManager": "yarn@4.9.2",
