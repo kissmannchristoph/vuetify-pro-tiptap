@@ -1,3 +1,9 @@
+## [1.0.13](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.12...v1.0.13) (2025-09-02)
+
+### Bug Fixes
+
+* **test-align:** fix text alignments ([b98ff0d](https://github.com/kissmannchristoph/vuetify-pro-tiptap/commit/b98ff0d61a5f554c19cfe33f3f0776813601a906))
+
 ## [1.0.12](https://github.com/kissmannchristoph/vuetify-pro-tiptap/compare/v1.0.11...v1.0.12) (2025-09-01)
 
 ### Bug Fixes
