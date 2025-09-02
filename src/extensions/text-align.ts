@@ -25,8 +25,10 @@ export const TextAlign = /* @__PURE__*/ TiptapTextAlign.extend<TextAlignOptions>
     return {
       ...this.parent?.(),
       types: ['heading', 'paragraph'],
-      alignments: ['left', 'center', 'right', 'justify'],
+      alignments: ['left', 'center', 'right'],
       defaultAlignment: null,
+      divider: false,
+      spacer: false,
       button: ({ editor, extension, t }) => {
         return {
           component: TextAlignActionMenuButton,
