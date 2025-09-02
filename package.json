@@ -2,8 +2,7 @@
   "name": "@kissmannchristoph/vuetify-pro-tiptap",
   "type": "module",
   "version": "1.0.12",
-  "private": false,
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "yarn@4.9.2",
   "description": "tiptap text editor on vuejs and vuetify",
   "author": "yikoyu<2282373181@qq.com>",
   "license": "MIT",
@@ -52,9 +51,9 @@
   },
   "scripts": {
     "dev": "vite serve --config vite-example.config.ts",
-    "build:lib": "pnpm check:types && vite build && pnpm build:styles",
-    "build:examples": "pnpm build:lib && pnpm check:types && vite build --config vite-example.config.ts",
-    "build:styles": "pnpm sass ./src/styles:./lib/styles --style=compressed --no-source-map",
+    "build:lib": "yarn check:types && vite build && pnpm build:styles",
+    "build:examples": "yarn build:lib && pnpm check:types && vite build --config vite-example.config.ts",
+    "build:styles": "yarn sass ./src/styles:./lib/styles --style=compressed --no-source-map",
     "lint:css": "stylelint **/*.{css,less,scss,vue}",
     "lint:js": "eslint .",
     "lint:all": "eslint . & stylelint **/*.{css,less,scss,vue}",
@@ -145,7 +144,7 @@
     "vuetify": "^3.9.6",
     "xss": "^1.0.15"
   },
-  "pnpm": {
+  "yarn": {
     "overrides": {
       "prosemirror-view": "1.37.0"
     }
